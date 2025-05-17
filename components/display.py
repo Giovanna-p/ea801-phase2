@@ -42,7 +42,7 @@ class Display:
         
         if numero == 3:
             # Número 3 grande
-            self.texto("  #  ", 30, 10, False)
+            self.texto("  ##### ", 30, 10, False)
             self.texto("      ## ", 30, 20, False)
             self.texto("   ####  ", 30, 30, False)
             self.texto("      ## ", 30, 40, False)
