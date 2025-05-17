@@ -1,0 +1,9 @@
+{
+	"syncFolder": true,
+	"softResetAfterUpload": true,
+	"pyIgnore": [
+		".vscode",
+		"OldFields"
+	],
+	"micropico.syncAllFileTypes": true
+}
