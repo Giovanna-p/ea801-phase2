@@ -35,7 +35,8 @@ class StageManager:
         """Exibe o menu principal do jogo"""
         while True:
             # Opções do menu
-            opcoes = self.stage_names + ["Modo Desafio", "Sair"]
+            # opcoes = self.stage_names + ["Modo Desafio", "Sair"]
+            opcoes = self.stage_names + ["Sair"]
             
             # Exibe o menu e aguarda seleção
             self.display.mostrar_mensagem(["BitdogLab Game", "Selecione:", 
