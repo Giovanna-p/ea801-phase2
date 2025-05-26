@@ -11,6 +11,11 @@ LED_PIN = 7
 BUTTON_A_PIN = 5
 BUTTON_B_PIN = 6
 
+# Joystick Analógico
+JOYSTICK_VRX_PIN = 27  # Eixo X
+JOYSTICK_VRY_PIN = 26  # Eixo Y
+JOYSTICK_SW_PIN = 22   # Botão central
+
 # Buzzer
 BUZZER_PIN = 21
 
