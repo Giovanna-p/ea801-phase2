@@ -51,12 +51,12 @@ def main():
     
     # Adiciona as etapas disponíveis
     # Formato: manager.adicionar_etapa(ClasseDoJogo, "Nome do Jogo")
-    manager.adicionar_etapa(ReactionGame, "Jogo de Reacao")
-    manager.adicionar_etapa(MemoryGame, "Jogo de Memoria")
+    manager.adicionar_etapa(ReactionGame, "Reacao")
+    manager.adicionar_etapa(MemoryGame, "Memoria")
     # manager.adicionar_etapa(RhythmGame, "Jogo de Ritmo")
-    manager.adicionar_etapa(TiltGame, "Jogo de Inclinacao")
+    manager.adicionar_etapa(TiltGame, "Inclinacao")
     # manager.adicionar_etapa(MazeGame, "Jogo de Labirinto")
-    manager.adicionar_etapa(GyroGame, "Jogo de Giroscopio")
+    manager.adicionar_etapa(GyroGame, "Giroscopio")
     # manager.adicionar_etapa(BalanceGame, "Jogo de Equilibrio")
     # manager.adicionar_etapa(SensorTest, "Teste do Sensor")
 

@@ -78,10 +78,11 @@ class GyroGame:
         
         # Mensagem inicial no display
         self.display.mostrar_mensagem([
-            "Jogo de Giroscopio",
-            "Gire o dispositivo para",
-            "apontar para os alvos",
-            "Pressione para iniciar"
+            "Gire a placa,",
+            "aponte para o",
+            "alvo amarelo",
+            "e pressione o",
+            "botao A"          
         ])
         
         # Aguarda qualquer botão ser pressionado para iniciar

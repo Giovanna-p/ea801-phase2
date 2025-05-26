@@ -155,9 +155,9 @@ def navegar_menu(display, botoes, titulo, opcoes, joystick=None):
         if num_opcoes > max_opcoes_visiveis:
             info_pagina = f"[{selecao+1}/{num_opcoes}]"
             if pagina_atual > 0:
-                info_pagina = "↑ " + info_pagina
+                info_pagina =  info_pagina
             if fim < num_opcoes:
-                info_pagina = info_pagina + " ↓"
+                info_pagina = info_pagina 
             linhas.append(info_pagina)
         
         display.mostrar_mensagem(linhas)

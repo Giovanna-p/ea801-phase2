@@ -31,11 +31,12 @@ class MemoryGame:
         """Inicia o jogo de memória"""
         # Mensagem inicial no display
         self.display.mostrar_mensagem([
-            "Jogo de Memoria",
-            "Memorize a sequencia",
+            "Memorize a ",
+            "sequencia",
             "Bot. A = Verde",
             "Bot. B = Vermelho",
-            "Pressione para iniciar"
+            "Pressione para ",
+            "iniciar"
         ])
         
         # Aguarda qualquer botão ser pressionado para iniciar

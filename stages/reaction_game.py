@@ -28,11 +28,11 @@ class ReactionGame:
         """Inicia o jogo de reação"""
         # Mensagem inicial no display
         self.display.mostrar_mensagem([
-            "Jogo de Reacao",
             "Aperte bot. A",
             "APENAS quando",
-            "aparecer LED VERDE",
-            "Ignore outras cores"
+            "aparecer LED ",
+            "VERDE.Ignore ",
+            "outras cores"
         ])
         
         # Aguarda o botão ser pressionado para iniciar

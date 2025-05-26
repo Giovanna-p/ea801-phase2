@@ -71,10 +71,12 @@ class StageManager:
             # Mensagem de instruções
             if self.joystick:
                 instrucoes = [
-                    "BitdogLab Game",
+                    "*BITDOGLAB GAME*",
+                    " ",
                     "Joystick: + - navegar",
                     "Centro: selecionar",
-                    "Bot. A/B: alternativo"
+                    "Bot. A: navegar",
+                    "Bot. B: selecionar" 
                 ]
             else:
                 instrucoes = [
@@ -138,7 +140,7 @@ class StageManager:
                 
             else:
                 # Sair
-                self.display.mostrar_mensagem(["Obrigado por jogar!"])
+                self.display.mostrar_mensagem(["Obrigado " ,"por jogar!"])
                 self.buzzer.tocar_fim_jogo()
                 # Limpa hardware antes de sair
                 self.limpar_hardware()

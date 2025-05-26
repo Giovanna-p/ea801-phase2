@@ -61,10 +61,12 @@ class TiltGame:
         
         # Mensagem inicial no display
         self.display.mostrar_mensagem([
-            "Jogo de Inclinacao",
-            "Colete os objetivos",
-            "inclinando o dispositivo",
-            "Pressione para iniciar"
+            "Capture a ",
+            "bolinha VERDE",
+            "inclinando o",
+            "dispositivo. ",
+            "Pressione para",
+            "iniciar"
         ])
         
         # Aguarda qualquer botão ser pressionado para iniciar
